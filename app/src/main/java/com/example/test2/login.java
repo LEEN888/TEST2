@@ -81,7 +81,7 @@ public class login extends Fragment {
             public void onClick(View view) {
                 String username = etusername.getText().toString();
                 String password = etpassword.getText().toString();
-                
+
 
             }
         });
