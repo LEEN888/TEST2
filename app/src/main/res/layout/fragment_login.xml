@@ -16,8 +16,27 @@
         android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/loginfragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnfrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="478dp" />
+
+            <EditText
+                android:id="@+id/passwordfrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="Password"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="351dp" />
 
             <EditText
                 android:id="@+id/usernamefrag"
@@ -29,22 +48,13 @@
                 tools:layout_editor_absoluteX="105dp"
                 tools:layout_editor_absoluteY="233dp" />
 
-            <EditText
-                android:id="@+id/passwordfrag"
+            <TextView
+                android:id="@+id/tvSignupLinkLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="numberDecimal"
-                tools:layout_editor_absoluteX="96dp"
-                tools:layout_editor_absoluteY="351dp" />
-
-            <Button
-                android:id="@+id/btnfrag"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button"
-                tools:layout_editor_absoluteX="147dp"
-                tools:layout_editor_absoluteY="478dp" />
+                android:text="Signup..."
+                tools:layout_editor_absoluteX="165dp"
+                tools:layout_editor_absoluteY="543dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>
 
